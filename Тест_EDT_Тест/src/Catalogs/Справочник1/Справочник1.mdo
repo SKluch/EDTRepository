@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8797ced2-041c-4254-a922-1de1142a8ecf">
   <producedTypes>
-    <objectType typeId="abc3a9f9-9447-4a51-b0a0-ce9798074672" valueTypeId="5eef0911-55e7-4454-baec-89a1b1fb029e"/>
-    <refType typeId="57a88f03-1a78-483d-aa44-ea44e44bb513" valueTypeId="352c0184-b3b5-4838-9057-f2ccc81fe2be"/>
-    <selectionType typeId="c3eb49af-b0da-456e-83cc-8b7c8d3e26a2" valueTypeId="669307a4-a18c-45fa-981b-236410ffb8d4"/>
-    <listType typeId="1932e36f-753b-40e2-a431-70288bc60834" valueTypeId="c4c08f53-43e8-4219-82bc-7e9df481213e"/>
-    <managerType typeId="4821f4f1-a725-44f2-bba2-83f96f49f075" valueTypeId="ec85120d-47dc-4671-82d6-790eaf395cc4"/>
+    <objectType typeId="abc3a9f9-9447-4a51-b0a0-ce9798074672" valueTypeId="5eef0911-55e7-4454-baec-89a1b1fb029e">
+    </objectType>
+    <refType typeId="57a88f03-1a78-483d-aa44-ea44e44bb513" valueTypeId="352c0184-b3b5-4838-9057-f2ccc81fe2be">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c3eb49af-b0da-456e-83cc-8b7c8d3e26a2" valueTypeId="669307a4-a18c-45fa-981b-236410ffb8d4">
+    </selectionType>
+    <listType typeId="1932e36f-753b-40e2-a431-70288bc60834" valueTypeId="c4c08f53-43e8-4219-82bc-7e9df481213e">
+    </listType>
+    <managerType typeId="4821f4f1-a725-44f2-bba2-83f96f49f075" valueTypeId="ec85120d-47dc-4671-82d6-790eaf395cc4">
+    </managerType>
   </producedTypes>
   <name>Справочник1</name>
   <comment></comment>
@@ -57,6 +63,20 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="999eb6c3-46a9-41db-a89e-45f95a6bb955">
+    <name>Реквизит3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
 </mdclass:Catalog>
