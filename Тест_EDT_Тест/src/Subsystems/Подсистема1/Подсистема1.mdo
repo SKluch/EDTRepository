@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e71b5fab-f739-4dba-b34b-f40273d45eb9">
+  <name>Подсистема1</name>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Справочник1</content>
+  <content>Catalog.Справочник2</content>
+  <content>Document.Документ1</content>
+</mdclass:Subsystem>
